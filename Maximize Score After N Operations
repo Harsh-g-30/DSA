@@ -47,3 +47,18 @@ public:
         return func(nums, 1, 0, dp, gcd);
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
