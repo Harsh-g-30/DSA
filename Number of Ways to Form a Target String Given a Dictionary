@@ -28,6 +28,15 @@ public:
             }
         }
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
         for (int i = 0; i < n; i++) {
             for (int j = m-1; j >= 0; j--) {
                 dp[j+1] += (int)((long)dp[j] * count[i][target[j] - 'a'] % mod);
