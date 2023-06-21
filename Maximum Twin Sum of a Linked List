@@ -26,6 +26,9 @@ class Solution {
         while(prev)
         {
             maxVal = max(maxVal, head -> val + prev -> val);
+
+
+
             prev = prev -> next;
             head = head -> next;
         }
